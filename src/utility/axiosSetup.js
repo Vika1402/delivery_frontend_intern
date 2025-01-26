@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://delivery-backend-intern.onrender.com/",
+  baseURL: "https://delivery-backend-intern.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
